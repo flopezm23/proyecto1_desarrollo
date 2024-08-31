@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcación de Empleados</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Marcación de Empleados</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Marcación</h2>
+            <div id="reloj">
+                <p id="fechaHora">Cargando...</p>
+            </div>
+            <div id="marcacion">
+                <p id="mensaje">Cargando...</p>
+                <button id="marcarEntrada">Marcar Entrada</button>
+                <button id="marcarSalida">Marcar Salida</button>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Historial de Marcaciones</h2>
+            <table id="historial">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Tipo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los registros se insertarán aquí mediante JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
+
